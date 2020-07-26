@@ -12,7 +12,13 @@ For the latest version:
 npm i @framed/react-template
 ```
 
-## Example
+## How to use
+
+Call `useTemplate(<template name as string>, <React functional component>)` to create a templated component.
+
+If a template name is used only the last template added will be shown.
+
+### Example
 
 ```javascript
 const Base = useTemplate('templateOverriddenWithProperties', (props: NameProperties) => <div>Hi {props.name}</div>);
