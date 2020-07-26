@@ -1,6 +1,6 @@
 {
   "name": "@framed/react-template",
-  "version": "0.0.1-alpha.2",
+  "version": "0.0.1",
   "description": "Allows React components to be overridden",
   "main": "lib/index.js",
   "bugs": {
