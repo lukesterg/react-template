@@ -2,7 +2,7 @@
   "name": "@framed/react-template",
   "version": "0.0.1-alpha.1",
   "description": "Allows React components to be overridden",
-  "main": "index.js",
+  "main": "lib/index.js",
   "bugs": {
     "url": "https://github.com/lukesterg/react-template/issues"
   },
