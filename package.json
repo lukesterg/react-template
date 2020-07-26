@@ -1,0 +1,37 @@
+{
+  "name": "@framed/react-template",
+  "version": "0.0.1-alpha.1",
+  "description": "Allows React components to be overridden",
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/lukesterg/react-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukesterg/react-template"
+  },
+  "scripts": {
+    "test": "TZ=UTC jest --ci",
+    "test-watch": "TZ=UTC jest --watch",
+    "build": "tsc",
+    "build-watch": "tsc -w",
+    "lint": "eslint \"src/**/*.ts\" && tsc --noEmit"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.7",
+    "@types/react": "^16.9.43",
+    "@types/react-test-renderer": "^16.9.2",
+    "@typescript-eslint/eslint-plugin": "^3.7.0",
+    "@typescript-eslint/parser": "^3.7.0",
+    "eslint": "^7.5.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "jest": "^26.1.0",
+    "prettier": "^2.0.5",
+    "react": "^16.13.1",
+    "react-test-renderer": "^16.13.1",
+    "ts-jest": "^26.1.3",
+    "typescript": "^3.9.7"
+  }
+}
